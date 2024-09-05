@@ -11,9 +11,8 @@ const Header = () => {
       </div>
       {/* NavLinks */}
       <div className="flex space-x-7">
-        <p className="cursor-pointer" onClick={()=> navigate('/facialLandmark')}>Face Landmark</p>
-        <p className="cursor-pointer" onClick={()=> navigate('/poseEst')}>Pose Estimation</p>
-        <p className="cursor-pointer" onClick={()=> navigate('/')}>Object Identification</p>
+        <p className="cursor-pointer" onClick={()=> navigate('/login')}>Login</p>
+        <p className="cursor-pointer" onClick={()=> navigate('/signup')}>SignUp</p>
       </div>
     </div>
   );
